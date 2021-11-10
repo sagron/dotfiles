@@ -4,6 +4,8 @@ set encoding=utf-8
 set splitright
 set hidden
 set colorcolumn=0
+" disable requesting cursor position - cause of editor entering replace mode
+set t_u7=
 " allow colors to work for powerline"
 set t_Co=256
 "allow backspace to remove all spaces of 'tab'"
