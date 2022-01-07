@@ -105,13 +105,13 @@ nnoremap bua :b update<cr>
 " Needed for autoload of CtrlP Plugin
 nnoremap <C-p> :CtrlP<cr>
 " disable <esc> key and remap to 'kj'
-inoremap <esc> <nop>
-inoremap kj <esc>
+" inoremap <esc> <nop>
+" inoremap kj <esc>
 "disable arrow keys - force learn hjkl"
-nnoremap <Left> <nop>
-nnoremap <Right> <nop>
-nnoremap <Up> <nop>
-nnoremap <Down> <nop>
+" nnoremap <Left> <nop>
+" nnoremap <Right> <nop>
+" nnoremap <Up> <nop>
+" nnoremap <Down> <nop>
 " Use ,l to toggle display of whitespace
 " Don't map L as it is a standard motion key (LOW)
 nnoremap <localleader>l :set list!<cr>
