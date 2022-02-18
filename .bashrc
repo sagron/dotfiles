@@ -130,3 +130,12 @@ if [[ "$KERNEL" =~ "Microsoft" ]]; then
         export PATH="$PATH:/mnt/c/Program Files/Oracle/VirtualBox"
     fi
 fi
+
+shopt -s histappend
+shopt -s cmdhist
+HISTFILESIZE=1000000
+HISTSIZE=1000000
+HISTCONTROL=ignoreboth
+HISTIGNORE='bg:fg:history'
+HISTTIMEFORMAT='%F %T '
+PROMPT_COMMAND='history -a'
